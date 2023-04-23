@@ -1,0 +1,219 @@
+body{
+    background-image: #a6a6a6;
+    background-size: cover;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+p{
+    font-family:Arial;
+    font-size: 25px;
+}
+td{
+    padding-top:10px; 
+    padding-bottom: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+h1{
+    font-family:Arial; 
+    color: #000; 
+
+    /*font-variant: small-caps;
+    /*letter-spacing: 0.3em;*/
+    font-size: 60px;
+    font-weight: bold;
+    /*font-weight:lighter;*/
+}
+header{
+    background-color: #0032a1;
+    
+}
+.menu{
+    width: 100%;
+    margin-top: 0px;
+    font-family:Arial;
+    /*font-variant:small-caps;*/
+    font-size:19px;
+    color : #000;
+    /*letter-spacing: 0.2em;*/
+    font-weight: light;
+    text-align: center;
+}
+table.menu td a:hover {
+    color: #04b3fc;
+    text-decoration: none;
+  transform: scale(1.1);
+  }
+table.menu td button:hover {
+    color: #04b3fc;
+    text-decoration: none;
+  transform: scale(1.1);
+  cursor: pointer;
+  }
+  table.menu td {
+    
+    vertical-align: middle;
+    transition: transform 0.3s;
+  }
+  
+  table.menu td:not(:last-child):hover {
+  transform: scale(1.1);
+  }
+td a:visited {
+    color: #fff;
+    text-decoration: none; 
+}
+td a:link {
+    color: #fff;
+    text-decoration: none; 
+}
+a:active {
+    color: #000;
+    text-decoration: none; 
+}
+header table td a:hover{
+    color: #04b3fc;
+    text-decoration: none;
+}
+header{
+    background: #fff;
+}
+
+/*.menu td:hover {
+    background-color: #fff;
+    color:#000;
+}*/
+
+.logo{
+    width: 200px; 
+}
+
+.boton1 a{
+    color : #fff;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0032a1;
+    height: max-content;
+  }
+  .cols {
+    display: table;
+    width: 100%;
+  }
+  
+  .cols div {
+    display: table-cell;
+  }
+    .col1 {
+        padding-left: 5%;
+        width: 40%;
+    }
+    .col2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+        width: 60%;
+        text-align: center;
+    }
+    .col1,
+    .col2 {
+        display: inline-block;
+        height: 100%;
+    }
+    .col2 img{
+        margin-top: 50px;
+      }
+
+#ingCiencias{
+    color: #0032a1;
+    font-weight: bold;
+}
+ 
+.logos1{
+    margin-top: 50px;
+}
+#cuadro{
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    box-shadow:
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.espacio{
+    padding-right: 50px;
+}
+.espacio2{
+    padding-left: 10px;
+}
+.espacio3{
+    padding-left: 30px;
+}
+.boton-in{
+    background-color: #fff;
+    color: #0032a1;
+    padding: 20px;
+    border-radius: 15px;
+}
+.botones a{
+    color: #0032a1;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: #000; 
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .dropdown-content a:hover {
+    color: #0042d1;
+  }
+  .icon-tabler-user-circle,
+  .icon-tabler-bell-filled {
+    margin-left: 40px;
+    stroke-width: 2px;
+    stroke: #fff;
+    fill: none;
+    width: 31px;
+    height: 31px;
+    transition: stroke 0.3s, transform 0.3s;
+    color: #fff;
+  }
+  
+  .icon-tabler-user-circle:hover {
+    cursor: pointer;
+    stroke: #fff;
+    transform: scale(1.1);
+  }
+  
+  .icon-tabler-bell-filled:hover {
+    cursor: pointer;
+    stroke: #fff;
+    transform: scale(1.1);
+  }
+
+
