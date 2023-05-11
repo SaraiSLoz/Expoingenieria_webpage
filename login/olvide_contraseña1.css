@@ -1,0 +1,282 @@
+body{
+    background-color: #f0f2f5;
+    background-size: cover;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+header{
+  background-color: #0032a1;
+}
+
+
+.encabezado{
+  width: 100%;
+  height: 150px;
+
+  text-align: center;
+}
+
+.logo{
+  width: 350px; 
+  margin-left: 30px;
+}
+
+
+h1{
+    font-family: "Raleway",sans-serif;
+    color : #000; 
+    /*font-variant: small-caps;
+    /*letter-spacing: 0.3em;*/
+    margin-top:70px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    /*font-weight:lighter;*/
+}
+
+
+.olvide_contraseña {
+  color: #000; 
+  font-family:Arial;
+  width: 15%;
+      /*font-variant: small-caps;
+    /*letter-spacing: 0.3em;*/
+  margin-left: 350px;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 200px 15px ;
+  margin-top:55px;
+  background-color: transparent;
+  white-space: nowrap;
+  table-layout: fixed;
+  font-weight: bold;
+
+}
+
+  
+  input::placeholder{
+    font-style: italic;
+    
+  }
+
+
+.input1,.input2,.input3 {
+  border-radius:50px;
+  border:none;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+
+}
+
+.a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    background-color:#0032a1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 100px;
+    width: 170px;
+    height: 20px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    color: white;
+    text-align:center;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+table.menu td {
+  
+  vertical-align: middle;
+  transition: transform 0.3s;
+}
+
+table.menu td:hover {
+transform: scale(1.1);
+}
+
+table.menu header {
+  background-color: #0032a1;
+}
+
+.menu {
+  width: 100%;
+  font-family: Arial;
+  font-size: 18px;
+  color: #000;
+  font-weight: light;
+  text-align: center;
+  
+  
+}
+
+table.menu td a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+table.menu td a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+table.menu td a:hover {
+  color: #04b3fc;
+  text-decoration: none;
+transform: scale(1.1);
+}
+
+header {
+  background: #fff;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px; 
+}
+
+
+
+table.menu {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #0032a1;
+}
+
+
+.icon-tabler-arrow-back-up-double {
+transition: stroke 0.3s, transform 0.3s;
+margin-left: 10px;
+width: 32px;
+height: 32px;
+}
+
+.icon-tabler-arrow-back-up-double:hover {
+stroke: #04b3fc;
+transform: scale(1.1);
+cursor: pointer;
+}
+
+
+.icon-tabler-user-circle,
+.icon-tabler-bell-filled {
+margin-left: 40px;
+stroke-width: 2px;
+stroke: #fff;
+fill: none;
+width: 31px;
+height: 31px;
+transition: stroke 0.3s, transform 0.3s;
+}
+.icon-tabler-user-circle,
+.icon-tabler-bell-filled {
+  margin-left: 40px;
+  stroke-width: 2px;
+  stroke: #fff;
+  fill: none;
+  width: 31px;
+  height: 31px;
+  transition: stroke 0.3s, transform 0.3s;
+  color: #fff;
+}
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #000;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content_admin {
+  display: none;
+  position: absolute;
+  background: #000;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content_estudiante {
+  display: none;
+  position: absolute;
+  background: #000;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content_prof {
+  display: none;
+  position: absolute;
+  background: #000;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content,.dropdown:hover .dropdown-content_admin,.dropdown:hover .dropdown-content_estudiante,.dropdown:hover .dropdown-content_prof{
+display: block;
+}
+
+  
+.dropdown-content a,.dropdown-content_admin a,.dropdown-content_estudiante a,.dropdown-content_prof a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #fff;
+}
+
+.dropdown-content a:hover,.dropdown-content_admin a:hover,.dropdown-content_estudiante a:hover,.dropdown-content_prof a:hover {
+background-color: #f1f1f1;
+}
+
+.contra {
+    display: flex;
+    align-items: center;
+    background-color: #D3D3D3;
+    padding: 10px 20px;
+}
+
+.contra {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.icon-tabler-arrow-back-up-double {
+  transition: stroke 0.3s, transform 0.3s;
+  margin-left: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.icon-tabler-arrow-back-up-double:hover {
+  stroke: #04b3fc;
+  transform: scale(1.1);
+  cursor: pointer;
+}
